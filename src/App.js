@@ -211,7 +211,7 @@ const App = () => {
 	}
   }
 
-  // currentAccount, network が変わるたびに実行されます。
+  // currentAccount, network が変わるたびに実行されます
 	useEffect(() => {
 	if (network === 'Polygon Mumbai Testnet') {
 	  fetchMints();
